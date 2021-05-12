@@ -80,12 +80,22 @@
     <div id="our-beginning" class="page-section">
       <div class="wrapper">
         <h2
-          class="headline headline--centered headline--light headline--b-margin-small"
+          class="
+            headline headline--centered headline--light headline--b-margin-small
+          "
         >
           Бид анх <strong> өөрсдийнхөө аяллаар</strong> эхлэж байлаа.
         </h2>
         <h3
-          class="headline headline--centered headline--orange headline--small headline--narrow headline--light headline--b-margin-large"
+          class="
+            headline
+            headline--centered
+            headline--orange
+            headline--small
+            headline--narrow
+            headline--light
+            headline--b-margin-large
+          "
         >
           Одоо бид <strong>бусдын аяллыг</strong> дурсамжтай болгохыг зорьж
           байна.
@@ -104,14 +114,16 @@
 
         <div class="row row--gutters">
           <div
-            class="row__medium-4 row__medium-4--larger row__b-margin-until-medium"
+            class="
+              row__medium-4 row__medium-4--larger row__b-margin-until-medium
+            "
           >
             <picture>
               <source
                 sizes="404px"
                 srcset="
-                  assets/images/our-start.jpg            404w,
-                  assets/images/our-start-hi-dpi.jpg.jpg 808w
+                  assets/images/our-start.jpg        404w,
+                  assets/images/our-start-hi-dpi.jpg 808w
                 "
                 media="(min-width: 1020px)"
               />
@@ -172,39 +184,70 @@
 
     <div id="features" class="page-section page-section--blue">
       <div class="wrapper">
-        <img src="assets/images/icons/star.svg" />
-        <h2>Бидний онцлогууд</h2>
+        <h2 class="section-title">
+          <img
+            class="section-title__icon"
+            src="assets/images/icons/star.svg"
+          />Бидний
+          <strong>онцлогууд</strong>
+        </h2>
 
-        <img src="assets/images/icons/rain.svg" />
-        <h3>Бид цаг уурыг аждаг</h3>
-        <p>
-          Манай апп-ыг татаж авч ашиглавал бид танд бороо орохоос 20 минутын
-          өмнө мэдэгдэж байх болно. Бусад мэдээллүүдийг ч цаг тухайд нь авах
-          боломжтой.
-        </p>
+        <div class="row row--gutters-large generic-content-container">
+          <div class="row__medium-6">
+            <div class="feature-item">
+              <img
+                class="feature-item__icon"
+                src="assets/images/icons/rain.svg"
+              />
+              <h3 class="feature-item__title">Бид цаг уурыг аждаг</h3>
+              <p>
+                Манай апп-ыг татаж авч ашиглавал бид танд бороо орохоос 20
+                минутын өмнө мэдэгдэж байх болно. Бусад мэдээллүүдийг ч цаг
+                тухайд нь авах боломжтой.
+              </p>
+            </div>
+            <div class="feature-item">
+              <img
+                class="feature-item__icon"
+                src="assets/images/icons/globe.svg"
+              />
+              <h3 class="feature-item__title">Аяллын лавлах</h3>
+              <p>
+                Таны урд хожид огт сонсож байгаагүй, дэлхий дээрх үзэсгэлэнт
+                газрууд, аялал жуулчлалын гайхалтай хотуудын талаар бид судласан
+                бөгөөд та тэдгээр газруудаас сонгон аялж болно.
+              </p>
+            </div>
+          </div>
 
-        <img src="assets/images/icons/globe.svg" />
-        <h3>Аяллын лавлах</h3>
-        <p>
-          Таны урд хожид огт сонсож байгаагүй, дэлхий дээрх үзэсгэлэнт газрууд,
-          аялал жуулчлалын гайхалтай хотуудын талаар бид судласан бөгөөд та
-          тэдгээр газруудаас сонгон аялж болно.
-        </p>
+          <div class="row__medium-6">
+            <div class="feature-item">
+              <img
+                class="feature-item__icon"
+                src="assets/images/icons/wifi.svg"
+              />
+              <h3 class="feature-item__title">Wi-Fi-тай цэгүүд</h3>
+              <p>
+                Манай апп-ыг татаж авснаар өөрийн аялж буй газар оронд байгаа
+                үнэгүй wi-fi бүхий цэгүүд, нууц үгсийн мэдээллийг авах боломжтой
+                бөгөөд хэзээ ч холбоо тасрах аюулгүй болох юм.
+              </p>
+            </div>
 
-        <img src="assets/images/icons/wifi.svg" />
-        <h3>Wi-Fi-тай цэгүүд</h3>
-        <p>
-          Манай апп-ыг татаж авснаар өөрийн аялж буй газар оронд байгаа үнэгүй
-          wi-fi бүхий цэгүүд, нууц үгсийн мэдээллийг авах боломжтой бөгөөд хэзээ
-          ч холбоо тасрах аюулгүй болох юм.
-        </p>
-
-        <img src="assets/images/icons/fire.svg" />
-        <h3>Аяллын хэрэгслүүд</h3>
-        <p>
-          Та манай аяллуудаар гурваас дээш удаа аялбал бид танд майхан барих,
-          гал түлэх, хоол хийх, загас барих хэрэгслүүдийг бэлэглэх болно.
-        </p>
+            <div class="feature-item">
+              <img
+                class="feature-item__icon"
+                src="assets/images/icons/fire.svg"
+              />
+              <h3 class="feature-item__title">Аяллын хэрэгслүүд</h3>
+              <p>
+                Та манай аяллуудаар гурваас дээш удаа аялбал бид танд майхан
+                барих, гал түлэх, хоол хийх, загас барих хэрэгслүүдийг бэлэглэх
+                болно.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
